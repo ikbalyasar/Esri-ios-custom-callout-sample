@@ -6,7 +6,7 @@
  
 
 ### You can use it by adding your own freqs:
-<img src="https://github.com/ikbalyasar/Esri-ios-custom-callout-sample/blob/master/12.png" height="667" width="375">
+<img src="https://github.com/ikbalyasar/Esri-ios-custom-callout-sample/blob/master/12.png" height="667" width="795">
 
 ### App ScreenShot:
 <img src="https://github.com/ikbalyasar/Esri-ios-custom-callout-sample/blob/master/4.PNG" height="667" width="375">
