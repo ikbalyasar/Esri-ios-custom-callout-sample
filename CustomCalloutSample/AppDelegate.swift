@@ -4,7 +4,7 @@
 //
 //  Created by İkbal Yaşar on 11.04.2018.
 //  Copyright © 2018 yasarSoft. All rights reserved.
-//
+//  ikbalyasar@gmail.com
 
 import UIKit
 

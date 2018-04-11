@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4D4609893CD18D21029AC0B /* Pods_CustomCalloutSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF9A26D977254C5693FFACF /* Pods_CustomCalloutSample.framework */; };
 		FD714E21207E2CBA00D1065D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD714E20207E2CBA00D1065D /* AppDelegate.swift */; };
-		FD714E23207E2CBA00D1065D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD714E22207E2CBA00D1065D /* ViewController.swift */; };
-		FD714E26207E2CBA00D1065D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD714E24207E2CBA00D1065D /* Main.storyboard */; };
 		FD714E28207E2CBC00D1065D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD714E27207E2CBC00D1065D /* Assets.xcassets */; };
 		FD714E2B207E2CBC00D1065D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD714E29207E2CBC00D1065D /* LaunchScreen.storyboard */; };
+		FD714E3B207E325800D1065D /* CustomCalloutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD714E38207E325700D1065D /* CustomCalloutViewController.swift */; };
+		FD714E3C207E325800D1065D /* CustomCallout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD714E39207E325800D1065D /* CustomCallout.storyboard */; };
+		FD714E3D207E325800D1065D /* CustomCalloutPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD714E3A207E325800D1065D /* CustomCalloutPopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BF9A26D977254C5693FFACF /* Pods_CustomCalloutSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomCalloutSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22CA1B4F1F9FF71A3EAD7D3 /* Pods-CustomCalloutSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomCalloutSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomCalloutSample/Pods-CustomCalloutSample.release.xcconfig"; sourceTree = "<group>"; };
+		B9B3ACB4BBB6BBBE6D7A2FE3 /* Pods-CustomCalloutSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomCalloutSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomCalloutSample/Pods-CustomCalloutSample.debug.xcconfig"; sourceTree = "<group>"; };
 		FD714E1D207E2CBA00D1065D /* CustomCalloutSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCalloutSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD714E20207E2CBA00D1065D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD714E22207E2CBA00D1065D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FD714E25207E2CBA00D1065D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD714E27207E2CBC00D1065D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD714E2A207E2CBC00D1065D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD714E2C207E2CBC00D1065D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD714E38207E325700D1065D /* CustomCalloutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCalloutViewController.swift; sourceTree = "<group>"; };
+		FD714E39207E325800D1065D /* CustomCallout.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomCallout.storyboard; sourceTree = "<group>"; };
+		FD714E3A207E325800D1065D /* CustomCalloutPopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCalloutPopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D4609893CD18D21029AC0B /* Pods_CustomCalloutSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		417DEA5F4B94535D0FCBE2E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BF9A26D977254C5693FFACF /* Pods_CustomCalloutSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		423E2E67F47491561AA60C15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9B3ACB4BBB6BBBE6D7A2FE3 /* Pods-CustomCalloutSample.debug.xcconfig */,
+				B22CA1B4F1F9FF71A3EAD7D3 /* Pods-CustomCalloutSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FD714E14207E2CBA00D1065D = {
 			isa = PBXGroup;
 			children = (
 				FD714E1F207E2CBA00D1065D /* CustomCalloutSample */,
 				FD714E1E207E2CBA00D1065D /* Products */,
+				423E2E67F47491561AA60C15 /* Pods */,
+				417DEA5F4B94535D0FCBE2E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,9 +80,10 @@
 		FD714E1F207E2CBA00D1065D /* CustomCalloutSample */ = {
 			isa = PBXGroup;
 			children = (
+				FD714E39207E325800D1065D /* CustomCallout.storyboard */,
+				FD714E3A207E325800D1065D /* CustomCalloutPopUpViewController.swift */,
+				FD714E38207E325700D1065D /* CustomCalloutViewController.swift */,
 				FD714E20207E2CBA00D1065D /* AppDelegate.swift */,
-				FD714E22207E2CBA00D1065D /* ViewController.swift */,
-				FD714E24207E2CBA00D1065D /* Main.storyboard */,
 				FD714E27207E2CBC00D1065D /* Assets.xcassets */,
 				FD714E29207E2CBC00D1065D /* LaunchScreen.storyboard */,
 				FD714E2C207E2CBC00D1065D /* Info.plist */,
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD714E2F207E2CBC00D1065D /* Build configuration list for PBXNativeTarget "CustomCalloutSample" */;
 			buildPhases = (
+				BB93CCBC410DE62BF79655E2 /* [CP] Check Pods Manifest.lock */,
 				FD714E19207E2CBA00D1065D /* Sources */,
 				FD714E1A207E2CBA00D1065D /* Frameworks */,
 				FD714E1B207E2CBA00D1065D /* Resources */,
+				54F571350A8552B14F86E1E7 /* [CP] Embed Pods Frameworks */,
+				02A8355DAAA59CF759A88FC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,33 +154,85 @@
 			files = (
 				FD714E2B207E2CBC00D1065D /* LaunchScreen.storyboard in Resources */,
 				FD714E28207E2CBC00D1065D /* Assets.xcassets in Resources */,
-				FD714E26207E2CBA00D1065D /* Main.storyboard in Resources */,
+				FD714E3C207E325800D1065D /* CustomCallout.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02A8355DAAA59CF759A88FC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CustomCalloutSample/Pods-CustomCalloutSample-resources.sh",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework/ArcGIS.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ArcGIS.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomCalloutSample/Pods-CustomCalloutSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54F571350A8552B14F86E1E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CustomCalloutSample/Pods-CustomCalloutSample-frameworks.sh",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ArcGIS.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/ArcGIS.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomCalloutSample/Pods-CustomCalloutSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB93CCBC410DE62BF79655E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomCalloutSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD714E19207E2CBA00D1065D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD714E23207E2CBA00D1065D /* ViewController.swift in Sources */,
 				FD714E21207E2CBA00D1065D /* AppDelegate.swift in Sources */,
+				FD714E3B207E325800D1065D /* CustomCalloutViewController.swift in Sources */,
+				FD714E3D207E325800D1065D /* CustomCalloutPopUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FD714E24207E2CBA00D1065D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD714E25207E2CBA00D1065D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FD714E29207E2CBC00D1065D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,6 +360,7 @@
 		};
 		FD714E30207E2CBC00D1065D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9B3ACB4BBB6BBBE6D7A2FE3 /* Pods-CustomCalloutSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +379,7 @@
 		};
 		FD714E31207E2CBC00D1065D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22CA1B4F1F9FF71A3EAD7D3 /* Pods-CustomCalloutSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
